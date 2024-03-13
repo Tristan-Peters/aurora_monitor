@@ -12,6 +12,8 @@ kp_alarm = 1
 
 forecast_url = "https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg"
 
+forecast_scrape = "https://auroraforecast.is/"
+
 
 def json_sort_time(x):
     return x["time_tag"]
